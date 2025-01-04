@@ -33,9 +33,34 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+
+    --border-radius: 5px;
+    --box-shadow-x: 4px;
+    --box-shadow-y: 4px;
+    --reverse-box-shadow-x: -4px;
+    --reverse-box-shadow-y: -4px;
+    --base-font-weight: 500;
+    --heading-font-weight: 700;
+    --box-border: #000;
+
+    --shadow: var(--box-shadow-x) var(--box-shadow-y) 0px 0px var(--box-border);
+
+    --neoblack: #212121;
+    --neored: #ff6b6b;
+    --lightneored: #fcd7d7;
+    --neoblue: #88aaee;
+    --lightneoblue: #dfe5f2;
+    --neoorange: #fd9745;
+    --lightneoorange: #fff4e0;
+    --neoyellow: #ffdc58;
+    --lightneoyellow: #fef2e8;
+    --neogreen: #a3e636;
+    --lightneogreen: #e0e7f1;
+    --neopurple: #a388ee;
+    --lightneopurple: #e3dff2;
   }
   .dark {
-    --background: 0 0% 3.9%;
+    --background: 240, 13%, 18%;
     --foreground: 0 0% 98%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
